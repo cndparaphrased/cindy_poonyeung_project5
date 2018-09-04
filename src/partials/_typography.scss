@@ -1,0 +1,52 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-family: "Barlow", sans-serif;
+  letter-spacing: .25rem;
+  margin: 0;
+  padding: .25rem .5rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+}
+
+.textblock {
+  margin: 6rem 5rem 0;
+  font-size: 2.4rem;
+  text-align: left;
+}
+
+p.textblock--bolder {
+  font-size: 3rem;
+  margin: 0 1rem 3rem 5rem;
+  text-align: left;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divider::before {
+  content: "";
+  width: 2rem;
+  height: 10px;
+  background: white;
+  color: white;
+}

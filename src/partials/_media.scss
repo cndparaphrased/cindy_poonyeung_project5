@@ -1,0 +1,212 @@
+@media (max-width: 1050px) {
+  body {
+    font-size: 1.8rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .btn {
+    margin: 2.5rem;
+  }
+
+  .btn--delete {
+    margin: 0;
+  }
+
+  .navMain__icon {
+    width: 8rem;
+  }
+
+  .navMain__link {
+    font-size: 2.5rem;
+  }
+} // ========== END MAX-WIDTH 1050px
+
+@media (max-width: 800px) {
+  body {
+    font-size: 2rem;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    margin: 4rem 2.5rem;
+  }
+
+  .btn--delete {
+    margin: 0;
+  }
+
+  .mainApp {
+    position: relative;
+    top: 20vh;
+    height: 65vh;
+  }
+
+  .headerMain {
+    z-index: 10;
+    left: 0;
+    height: 20vh;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .logo {
+    width: 10rem;
+    margin: 1rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  .footerMain {
+    top: calc(100% - 15vh);
+    left: 0;
+    width: 100%;
+    height: 15vh;
+  }
+
+  .navMain {
+    display: flex;
+    margin: 0;
+  }
+
+  .navMain__item {
+    height: 15vh;
+    width: 100%;
+    background: transparent;
+    border: none;
+    &:hover {
+      background: #6F8151;
+    }
+  }
+
+  .navMain__item:not(:last-child) {
+    border-right: 3px solid #E3E5E0;
+  }
+
+  .navMain__label {
+    display: none;
+  }
+} // ========== END MAX-WIDTH 800px
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1.8rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .input__label::after {
+    height: .5rem;
+  }
+
+  .listForm__item::after {
+    bottom: .25rem;
+  }
+
+  svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    top: -.25rem;
+  }
+} // ========== END MAX-WIDTH 600px
+
+@media (max-width: 450px) {
+  body {
+    font-size: 1.6rem;
+  }
+
+  .btn {
+    margin: 1.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .btn--delete {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .input {
+    margin: 8rem 2.5rem 5rem
+  }
+
+  .input__field {
+    font-size: 2rem;
+  }
+
+  .input__label {
+    font-size: 2.2rem;
+    padding: 0.8rem 0;
+  }
+
+  .input__label::after {
+    height: .4rem;
+  }
+
+  .listForm__item {
+    margin: 1rem 0;
+  }
+
+  .listForm__item::after {
+    height: 0;
+  }
+
+  .listForm__label {
+    padding: 0 3rem;
+  }
+
+  .listForm__label--doNow {
+    padding: 0;
+  }
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+    top: -.25rem;
+  }
+
+  .listForm {
+    margin: 0 2.5rem;
+  }
+
+  .textblock {
+    margin: 6rem 2.5rem 0;
+    font-size: 2rem;
+  }
+
+  p.textblock--bolder {
+    margin: 0 1rem 3rem 2.5rem;
+    font-size: 2rem;
+  }
+
+  .footerMain {
+    top: calc(100% - 10vh);
+    height: 10vh;
+  }
+
+  .navMain__item {
+    height: 10vh;
+  }
+
+  .navMain__icon {
+    width: 4rem;
+  }
+}

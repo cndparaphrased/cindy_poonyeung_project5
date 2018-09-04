@@ -1,0 +1,72 @@
+// =========================
+// GENERAL STYLES
+// =========================
+img {
+	max-width: 100%;
+	display: block;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+// =========================
+// MAIN STYLES 
+// =========================
+body {
+  background-color: #E3E5E0;
+  color: #333;
+  text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 20vh 1fr 1fr;
+    grid-template-columns: 28% 28% 22% 22%;
+    height: 100vh;
+}
+
+.mainApp {
+  grid-row: 1 / 4;
+  grid-column: 1 / 3;
+}
+
+// =========================
+// BUTTON STYLES
+// =========================
+.btn {
+  background-color: #3B4D5E;
+  color: #E3E5E0;
+  text-transform: uppercase;
+  font-family: "Barlow", sans-serif;
+  line-height: 3rem;
+  border: 2px solid #3B4D5E;
+  padding: 1.5rem 2.5rem;
+  margin: 5rem;
+  transition: all .7s;
+  &:hover {
+  background-color: transparent;
+  color: #333;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn--delete {
+  background-color: transparent;
+  color: rgba(40, 60, 78, 1);
+  border: none;
+  padding: 0;
+  margin: 0;
+  transition: color .3s;
+  &:hover {
+    color: rgba(40, 60, 78, .5);
+  }
+}

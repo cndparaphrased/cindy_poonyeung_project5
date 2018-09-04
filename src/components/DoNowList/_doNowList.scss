@@ -1,0 +1,15 @@
+.doNowContainer {
+  margin: 25rem 0;
+}
+
+.doNowList__item--active {
+  text-decoration: line-through;
+}
+
+.doNowList__item::after {
+  height: 0;
+}
+
+.listForm__label--doNow {
+  padding: 0 2rem 0 0;
+}

@@ -1,0 +1,18 @@
+.headerMain {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 50vh;
+  width: 44%;
+  background-color: #98B06F;
+  grid-row: 1 / 2;
+  grid-column: 3 / 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 25rem;
+}
